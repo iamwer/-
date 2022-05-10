@@ -1,26 +1,11 @@
 #include <iostream>
 #include <stdio.h>
+using namespace std;
 
-
-namespace plus
+int main()
 {
-	int operation(int a, int b)
-	{
-		return a + b;	
-	}
-}
-
-namespace minus
-{
-	int operation(int a, int b)
-	{
-			return a - b;
-	}
-}
-
-int main(void)
-{
-	printf("%d\n", plus::operation(10, 4));
-	printf("%d\n", minus::operation(50, 20));
+	char s[20];
+	std::cin.get(s, 30);
+	std::cout << s;
 }
 	
